@@ -295,7 +295,7 @@ int main() {
     ga.setData(data, labels);
 
     // Evolve for a certain number of generations
-    int numGenerations = 1000;
+    int numGenerations = 100;
     for (int i = 0; i < numGenerations; ++i) {
         ga.evolve(i + 1); // Pass current generation number
     }

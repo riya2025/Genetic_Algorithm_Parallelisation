@@ -270,7 +270,7 @@ int main() {
     int inputSize = 20; // Example input size
     int hiddenSize = 10; // Example hidden layer size
     int outputSize = 5; // Example output size
-    int numGenerations = 1000; // Define number of generations
+    int numGenerations = 100; // Define number of generations
     GeneticAlgorithm ga(populationSize, mutationRate, inputSize, hiddenSize, outputSize, numGenerations);
 
     // Generate dummy data for classification

@@ -257,7 +257,7 @@ int main() {
     int inputSize = 20;
     int hiddenSize = 10;
     int outputSize = 5;
-    int numGenerations = 1000;
+    int numGenerations = 100;
     int numWorkers = 4; // Change this value to specify the number of worker threads
 
     GeneticAlgorithm ga(populationSize, mutationRate, inputSize, hiddenSize, outputSize, numGenerations, numWorkers);

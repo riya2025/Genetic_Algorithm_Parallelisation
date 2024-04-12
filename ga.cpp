@@ -274,7 +274,7 @@ int main() {
     GeneticAlgorithm ga(populationSize, mutationRate, inputSize, hiddenSize, outputSize, numGenerations);
 
     // Generate dummy data for classification
-    int numSamples = 2000;
+    int numSamples = 10;
     int numClasses = outputSize;
     auto [data, labels] = generateDummyData(numSamples, inputSize, numClasses, gen);
     ga.setData(data, labels);
